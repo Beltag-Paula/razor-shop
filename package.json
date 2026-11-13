@@ -1,0 +1,31 @@
+{
+  "name": "razor-shop",
+  "version": "0.2.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --env-file=.env server.js",
+    "test": "node --no-warnings test/smoke.js",
+    "whatsapp:test": "node scripts/whatsapp-test.js"
+  },
+  "dependencies": {
+    "@fontsource/abril-fatface": "^5.0.0",
+    "@fontsource/montserrat": "^5.0.0",
+    "@fontsource/source-sans-3": "^5.0.0",
+    "@whiskeysockets/baileys": "latest",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^10.1.0",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.35.5",
+    "better-sqlite3": ">=11.0.0"
+  }
+}
