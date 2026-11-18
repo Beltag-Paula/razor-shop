@@ -1,4 +1,4 @@
-# ANM Beauty Center: online booking site (version 2)
+# ANM Beauty Center: online booking site (version 2.1)
 
 The site for a women's beauty center (hair and nails), in the colours of the ANM logo: the home page with hero, services, about, prices, team, gallery, reviews and
 map; the booking page; the customer's own appointment page; English and Romanian; and the full admin editors (site text,
