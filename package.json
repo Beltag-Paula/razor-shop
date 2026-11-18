@@ -16,6 +16,7 @@
     "@fontsource/montserrat": "^5.0.0",
     "@fontsource/source-sans-3": "^5.0.0",
     "@whiskeysockets/baileys": "latest",
+    "dotenv": "^18.0.10",
     "express": "^4.21.0",
     "express-rate-limit": "^7.4.0",
     "helmet": "^7.1.0",
@@ -25,7 +26,7 @@
     "qrcode": "^1.5.4"
   },
   "optionalDependencies": {
-    "sharp": "^0.35.5",
-    "better-sqlite3": ">=11.0.0"
+    "better-sqlite3": ">=11.0.0",
+    "sharp": "^0.35.5"
   }
 }
