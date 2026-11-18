@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    container_name: anm-beauty
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "3000:3000"      # put nginx/Caddy with HTTPS in front of this
+    volumes:
+      - app-data:/app/data                 # database + WhatsApp session
+      - app-uploads:/app/public/uploads    # uploaded photos
+
+volumes:
+  app-data:
+  app-uploads:

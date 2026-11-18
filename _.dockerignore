@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.env
+.env.*
+*.db
+*.db-wal
+*.db-shm
+data/
+public/uploads/*
+test/
+Dockerfile
+docker-compose.yml
+.dockerignore
+README.md
